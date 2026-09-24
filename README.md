@@ -17,6 +17,14 @@ For auto-restart on file changes (Node 18+):
 npm run dev
 ```
 
+## Tests
+
+```bash
+npm test
+```
+
+Uses Node’s built-in test runner plus Supertest against a temporary data file.
+
 ## API
 
 | Method | Path | Description |
