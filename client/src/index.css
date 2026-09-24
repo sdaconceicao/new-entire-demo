@@ -190,9 +190,3 @@ body {
   color: var(--muted);
   margin-top: 2rem;
 }
-
-.empty[hidden],
-.error[hidden],
-.toolbar[hidden] {
-  display: none !important;
-}
