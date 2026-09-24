@@ -1,21 +1,32 @@
 # Express Todo
 
-A small to-do list with an Express REST API and a browser UI. Todos persist in `data/todos.json`.
+A small to-do list with an Express REST API and a React UI (Vite). Todos persist in `data/todos.json`.
 
 ## Run
 
 ```bash
 npm install
+npm run build
 npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
 
-For auto-restart on file changes (Node 18+):
+### Development
+
+In one terminal, start the API (auto-restart on file changes, Node 18+):
 
 ```bash
 npm run dev
 ```
+
+In another, run the React dev server with hot reload (proxies `/api` to port 3000):
+
+```bash
+npm run dev:ui
+```
+
+Open [http://localhost:5173](http://localhost:5173).
 
 ## Tests
 

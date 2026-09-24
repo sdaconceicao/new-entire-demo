@@ -206,7 +206,7 @@ describe('todo API', () => {
     const res = await request(app).get('/');
     assert.equal(res.status, 200);
     assert.match(res.text, /<title>Todo<\/title>/);
-    assert.match(res.text, /id="add-form"/);
+    assert.match(res.text, /id="root"/);
   });
 });
 
