@@ -1,0 +1,41 @@
+{
+  "cli_version": "0.11.2",
+  "checkpoint_id": "01M3ANFCVX1VWWSPPABW0XAZJF",
+  "session_id": "ad216967-8e50-4afa-9375-8677fde93475",
+  "strategy": "manual-commit",
+  "created_at": "2026-09-24T21:34:50.102854Z",
+  "branch": "main",
+  "checkpoints_count": 1,
+  "save_step_count": 1,
+  "files_touched": [],
+  "agent": "Cursor",
+  "model": "composer-2.5-fast",
+  "turn_id": "a506aaba60bd",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 99821,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 3651328,
+    "output_tokens": 14686,
+    "api_call_count": 1
+  },
+  "session_metrics": {
+    "turn_count": 1
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
+}
