@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="header">
+        <h1>Todo</h1>
+        <p class="subtitle">Express + JSON file storage</p>
+      </header>
+
+      <form id="add-form" class="add-form" autocomplete="off">
+        <input
+          id="title-input"
+          type="text"
+          name="title"
+          placeholder="What needs to be done?"
+          maxlength="500"
+          required
+        />
+        <button type="submit">Add</button>
+      </form>
+
+      <div class="toolbar" hidden>
+        <span id="count" class="count"></span>
+        <div class="toolbar-actions">
+          <button type="button" id="clear-completed" class="link-btn">
+            Clear completed
+          </button>
+          <button type="button" id="clear-all" class="link-btn danger">
+            Clear all
+          </button>
+        </div>
+      </div>
+
+      <p id="error" class="error" role="alert" hidden></p>
+      <ul id="todo-list" class="todo-list"></ul>
+      <p id="empty" class="empty">No todos yet. Add one above.</p>
+    </main>
+    <script src="/app.js"></script>
+  </body>
+</html>
