@@ -1,0 +1,22 @@
+we need to push and pull, fix it
+
+---
+
+going forward with a fresh project, what needs done to avoid sessions and checkpoints being lost
+
+---
+
+added a new commit, and it failed again
+
+@git-error-1790286011185 (1-6)
+
+---
+
+why is push going to error: failed to push some refs to 'entire://aws-us-east-2.entire.io/gh/sdaconceicao/new-entire-demo'
+It should be pushing to github not entire, then entire syncs
+
+---
+
+after pushing status shows this, and no new session came up
+
+@/Users/steve/.cursor/projects/Users-steve-Documents-new-entire-demo/terminals/1.txt:40-50
