@@ -3,10 +3,54 @@
   "checkpoint_id": "01M3ANCWJZ32RD2E0JPV0DS8GN",
   "session_id": "ec8cf53e-b55f-4c84-b1ee-860aa6b8b884",
   "strategy": "manual-commit",
-  "created_at": "2026-09-24T21:33:27.595526Z",
+  "created_at": "2026-09-24T21:33:33.231924Z",
+  "branch": "main",
   "checkpoints_count": 3,
-  "files_touched": null,
+  "save_step_count": 2,
+  "files_touched": [
+    "test/api.test.js",
+    "test/nextId.test.js"
+  ],
   "agent": "Cursor",
-  "model": "",
-  "compact_transcript_start": 0
+  "model": "composer-2.5-fast",
+  "turn_id": "8e03ddff0802",
+  "compact_transcript_start": 0,
+  "token_usage": {
+    "input_tokens": 40416,
+    "cache_creation_tokens": 0,
+    "cache_read_tokens": 306432,
+    "output_tokens": 6955,
+    "api_call_count": 2
+  },
+  "session_metrics": {
+    "turn_count": 3
+  },
+  "initial_attribution": {
+    "calculated_at": "2026-09-24T21:33:33.226891Z",
+    "agent_lines": 249,
+    "agent_removed": 0,
+    "human_added": 0,
+    "human_modified": 0,
+    "human_removed": 0,
+    "total_committed": 249,
+    "total_lines_changed": 249,
+    "agent_percentage": 100,
+    "metric_version": 2
+  },
+  "prompt_attributions": [
+    {
+      "checkpoint_number": 1,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    },
+    {
+      "checkpoint_number": 2,
+      "user_lines_added": 0,
+      "user_lines_removed": 0,
+      "agent_lines_added": 0,
+      "agent_lines_removed": 0
+    }
+  ]
 }
