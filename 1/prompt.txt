@@ -1,5 +1,1 @@
-checkpoints are not showing in entire but show locally, fix
-
----
-
-checkpoints are not showing in entire but show locally, fix
+we need to push and pull, fix it
